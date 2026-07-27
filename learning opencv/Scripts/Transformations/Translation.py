@@ -12,6 +12,6 @@ def translation(img,x,y):
 
 translated = translation(img,-100,-100)
 
-cv.imshow('translated_puppy',translated)
+cv.imshow('translated_dog',translated)
 
 cv.waitKey(0)

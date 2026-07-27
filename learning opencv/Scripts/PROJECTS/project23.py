@@ -7,7 +7,7 @@ from mediapipe.tasks.python import vision
 # Load Hand Landmarker Model
 # -----------------------------
 
-base_options = python.BaseOptions(model_asset_path=f"C:\Users\Hai\OneDrive\Desktop\OPENCV\learning opencv\Scripts\PROJECTS\hand_landmarker.task")
+base_options = python.BaseOptions(model_asset_path=r"C:\Users\Hai\OneDrive\Desktop\OPENCV\learning opencv\Scripts\PROJECTS\hand_landmarker.task")
 
 options = vision.HandLandmarkerOptions(
     base_options=base_options,
