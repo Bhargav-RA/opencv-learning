@@ -4,7 +4,7 @@ drawing = False
 ix, iy = -1, -1
 
 # Load image
-image = cv2.imread(r"C:\Users\asus\OneDrive\Desktop\Learn_CV\images\Panda.jpg")
+image = cv2.imread(r"C:\Users\asus\OneDrive\Desktop\Learn_CV\images\img.jpeg")
 
 if image is None:
     print("Error: Could not load image.")
