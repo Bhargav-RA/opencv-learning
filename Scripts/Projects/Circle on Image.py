@@ -1,6 +1,6 @@
 import cv2
 
-img = cv2.imread(r"C:\Users\asus\OneDrive\Desktop\Learn_CV\images\Panda.jpg")
+img = cv2.imread(r"C:\Users\asus\OneDrive\Desktop\Learn_CV\images\Ironman.jpg")
 
 def draw_circle(event,x,y,flags,param):
     if event == cv2.EVENT_LBUTTONDOWN:

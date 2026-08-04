@@ -2,9 +2,6 @@ import os
 import cv2
 import mediapipe as mp
 
-# ==========================
-# Model Path
-# ==========================
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 MODEL_PATH = os.path.join(SCRIPT_DIR, "hand_landmarker.task")
 
@@ -14,9 +11,6 @@ if not os.path.exists(MODEL_PATH):
     print(MODEL_PATH)
     exit()
 
-# ==========================
-# MediaPipe Hand Landmarker
-# ==========================
 BaseOptions = mp.tasks.BaseOptions
 HandLandmarker = mp.tasks.vision.HandLandmarker
 HandLandmarkerOptions = mp.tasks.vision.HandLandmarkerOptions
